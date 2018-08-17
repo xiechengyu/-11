@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 2050px;
+    background: #F6F7FB;
+}
+.content  .content_box2{
+    position: relative;
+    top: 20px ;
+    left: 130px;
+    width: 1259px;
+    height: 800px;
+    /*background: lightpink;*/
+}
+.content_box2_left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 930px;
+    height: 720px;
+    /*background-color: lightskyblue;*/
+    /*border: 1px solid #000000;*/
+    box-sizing: border-box;
+}
+/*左侧盒子头部*/
+.box2_left_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 930px;
+    height: 25px;
+    /*background-color: white;*/
+    border-left: 4px solid #CF1132;
+    box-sizing: border-box;
+}
+.box2_title_change{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    cursor: pointer;
+}
+.box2_title_change_img{
+    background: url("images/index_z_7005ec6.png");
+    background-position: -20px -37px;
+    width: 20px;
+    height: 20px;
+}
+/*左侧盒子内容*/
+.box2_left_content{
+
+    position: absolute;
+    width: 930px;
+    height: 660px;
+    top: 50px;
+    left: 0;
+    /*background-color: lightgreen;*/
+    /*border: 1px solid #000000;*/
+    box-sizing: border-box;
+}
+/*左侧内容盒子*/
+.box2_left_content_case1_box{
+    position: relative;
+    width: 290px;
+    height: 315px;
+    background: white;
+    /*border: 1px solid #000000;*/
+    float: left;
+    display: none;
+}
+/*左侧盒子头部*/
+.case1_box_header{
+    position: absolute;
+    width: 270px;
+    height: 100px;
+    left: 10px;
+    top: 170px;
+    border-bottom: 1px solid #cccccc;
+    background-color: white;
+}
+/*左侧内容三个盒子选项卡*/
+.box2_left_content_case1{
+    display: none;
+}
+.box2_active{
+    display: block;
+}
+.box2_left_content_case2{
+    display: none;
+}
+.box2_left_content_case3{
+    display: none;
+}
+
+.case1_box_background{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 165px;
+    opacity: 0.9;
+    display: none;
+}
+.case1_box_title{
+    line-height: 30px;
+    margin-left:5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.case1_box_content{
+    line-height: 30px;
+
+    font-size: 14px;
+    color: #B1B1B1;
+}
+.case1_box_btn{
+    position: absolute;
+    right: 0;
+    top: 275px;
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    /*background: #CF1132;*/
+}
+.case1_box_p{
+    line-height: 33px;margin-left: 13px;font-size: 13px;color: #B1B1B1;
+}
+.case1_box_btn:hover .case1_box_p{
+    color: #CF1132;
+}
+
+/*右侧盒子*/
+.content_box2_right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 720px;
+    /*background: lightblue;*/
+    /*border: 1px solid #000000;*/
+    box-sizing: border-box;
+}
+/*右侧盒子头部*/
+.box2_right_title{
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 300px;
+    height: 25px;
+    /*background-color: white;*/
+    border-left: 4px solid #CF1132;
+    box-sizing: border-box;
+}
+/*右侧盒子内容*/
+.box_right_content{
+    position: absolute;
+    width: 300px;
+    height: 660px;
+    top: 50px;
+    right: 0;
+    /*background-color: lightgreen;*/
+    border: 1px solid #cccccc;
+    cursor: pointer;
+}
+.box_right_content_case{
+    position: relative;
+    width: 300px;
+    height: 110px;
+    background-color: white;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.box_right_content_case:hover{
+    background: #f0f2f7;
+}
+.box_right_content_case_img{
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow:1px 1px #cccccc;
+}
+.box_right_content_case_p1{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #555555;
+}
+.box_right_content_case_p2{
+    position: absolute;
+    top: 45px;
+    left: 110px;
+    font-size: 15px;
+    color: #cccccc;
+}
+.box_right_content_case_span{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 110px;
+    top: 70px;
+
+}
+.box_right_content_case_backg{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: url("images/index_z_7005ec6.png");
+    background-position: -37px -20px;
+}
+.box_right_content_case_span2{
+    position: absolute;
+    left: 20px;
+    top: -3px;
+    font-size: 13px;
+    color: #cccccc;
+
+}
+.box_right_content_case_btn{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 35px;
+    right: 10px;
+    /*background-color: black;*/
+}
+.box2_left_content_case1_box{
+
+}
